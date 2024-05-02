@@ -28,6 +28,7 @@ public class APIProjectExample {
 
 			String id = response.jsonPath().get("data[1].color").toString();
 			System.out.println(id);
+			System.out.println("ExtraLineAddedHere");
 		}
 
 	}
